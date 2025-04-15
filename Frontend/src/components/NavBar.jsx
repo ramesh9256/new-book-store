@@ -17,7 +17,6 @@ export default function Navbar() {
           <Link to="/" className="hover:text-gray-200">Home</Link>
           <Link to="/add" className="hover:text-gray-200">Add Book</Link>
           <Link to="/get" className="hover:text-gray-200">Get Books</Link>
-          <Link to="/login" className="hover:text-gray-200">Login / Sign Up</Link>
         </div>
         
         <button
@@ -33,7 +32,6 @@ export default function Navbar() {
           <Link to="/" className="hover:text-gray-200">Home</Link>
           <Link to="/add" className="hover:text-gray-200">Add Book</Link>
           <Link to="/get" className="hover:text-gray-200">Get Books</Link>
-          <Link to="/login" className="hover:text-gray-200">Login / Sign Up</Link>
         </div>
       )}
     </nav>
