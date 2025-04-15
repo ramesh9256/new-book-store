@@ -9,7 +9,7 @@ const GetPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/get");
+        const response = await axios.get("https://new-book-store-fft2.onrender.com/get");
         setData(response.data);
       } catch (err) {
         setError("Failed to fetch data");
